@@ -6,7 +6,7 @@
 
 ## 2.1 What is an embedded system?
 
-An **embedded system** is a specialized computer system combining hardware and software designed to perform a dedicated, *specific function* within a larger mechanical or electronic device
+An **embedded system** is a specialized computer system combining hardware and software designed to perform a dedicated, **specific function** within a larger mechanical or electronic device
 
 | General-purpose computer | Embedded system |
 |---|---|
