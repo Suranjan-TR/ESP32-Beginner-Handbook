@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 260" width="860" height="260"><defs><marker id="a" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#333"/></marker></defs><style>text{font-family:Arial,Helvetica,sans-serif;fill:#111}.t{font-size:18px;font-weight:bold}.s{font-size:13px}.b{font-size:14px;font-weight:bold}.ln{stroke:#333;stroke-width:2;fill:none;marker-end:url(#a)}</style>
+<rect width="860" height="260" fill="#fff"/>
+<text x="430" y="28" class="t" text-anchor="middle">FROM ARDUINO CODE TO A RUNNING ESP32</text>
+<g class="b">
+<rect x="10" y="80" width="105" height="70" fill="#bbdefb" stroke="#333"/><text x="62" y="108" text-anchor="middle">Arduino</text><text x="62" y="126" text-anchor="middle">code (.ino)</text>
+<rect x="150" y="80" width="105" height="70" fill="#ffe0b2" stroke="#333"/><text x="202" y="120" text-anchor="middle">Compiler</text>
+<rect x="290" y="80" width="105" height="70" fill="#c8e6c9" stroke="#333"/><text x="342" y="120" text-anchor="middle">Firmware</text>
+<rect x="430" y="80" width="105" height="70" fill="#e1bee7" stroke="#333"/><text x="482" y="120" text-anchor="middle">USB</text>
+<rect x="570" y="80" width="105" height="70" fill="#ffcdd2" stroke="#333"/><text x="622" y="120" text-anchor="middle">ESP32</text>
+<rect x="710" y="80" width="105" height="70" fill="#dcedc8" stroke="#333"/><text x="762" y="108" text-anchor="middle">Flash then</text><text x="762" y="126" text-anchor="middle">CPU runs it</text>
+</g>
+<line x1="115" y1="115" x2="148" y2="115" class="ln"/><line x1="255" y1="115" x2="288" y2="115" class="ln"/><line x1="395" y1="115" x2="428" y2="115" class="ln"/><line x1="535" y1="115" x2="568" y2="115" class="ln"/><line x1="675" y1="115" x2="708" y2="115" class="ln"/>
+<text x="430" y="200" class="s" text-anchor="middle">Laptop (Arduino IDE)  →  USB cable  →  physical ESP32</text>
+<text x="430" y="222" class="s" text-anchor="middle">Serial Monitor shows messages sent back by Serial.println()</text>
+</svg>

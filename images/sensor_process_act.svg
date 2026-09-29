@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 220" width="860" height="220"><defs><marker id="a" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#333"/></marker></defs><style>text{font-family:Arial,Helvetica,sans-serif;fill:#111}.t{font-size:18px;font-weight:bold}.s{font-size:13px}.b{font-size:14px;font-weight:bold}.ln{stroke:#333;stroke-width:2;fill:none;marker-end:url(#a)}</style>
+<rect width="860" height="220" fill="#fff"/>
+<text x="430" y="28" class="t" text-anchor="middle">SENSE → PROCESS → ACT</text>
+<g class="b">
+<rect x="20" y="70" width="170" height="80" fill="#bbdefb" stroke="#333"/><text x="105" y="105" text-anchor="middle">SENSE</text><text x="105" y="125" class="s" text-anchor="middle">sensor / button</text>
+<rect x="250" y="70" width="170" height="80" fill="#ffe0b2" stroke="#333"/><text x="335" y="105" text-anchor="middle">ESP32</text><text x="335" y="125" class="s" text-anchor="middle">reads the signal</text>
+<rect x="480" y="70" width="170" height="80" fill="#e1bee7" stroke="#333"/><text x="565" y="105" text-anchor="middle">PROCESS</text><text x="565" y="125" class="s" text-anchor="middle">threshold decision</text>
+<rect x="690" y="70" width="150" height="80" fill="#c8e6c9" stroke="#333"/><text x="765" y="105" text-anchor="middle">ACT</text><text x="765" y="125" class="s" text-anchor="middle">LED / buzzer / Serial</text>
+</g>
+<line x1="190" y1="110" x2="248" y2="110" class="ln"/><line x1="420" y1="110" x2="478" y2="110" class="ln"/><line x1="650" y1="110" x2="688" y2="110" class="ln"/>
+<text x="430" y="190" class="s" text-anchor="middle">Example: LDR → ESP32 → "is it dark?" → LED ON</text>
+</svg>

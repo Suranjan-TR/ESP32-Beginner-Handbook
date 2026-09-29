@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 560" width="800" height="560"><defs><marker id="a" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#333"/></marker></defs><style>text{font-family:Arial,Helvetica,sans-serif;fill:#111}.t{font-size:18px;font-weight:bold}.s{font-size:13px}.b{font-size:14px;font-weight:bold}.ln{stroke:#333;stroke-width:2;fill:none;marker-end:url(#a)}</style>
+<rect width="800" height="560" fill="#fff"/>
+<text x="400" y="28" class="t" text-anchor="middle">ESP32 DEVKIT (38-pin) — FUNCTIONAL OVERVIEW</text>
+<text x="400" y="48" class="s" text-anchor="middle" style="fill:#c62828">Layout is schematic. Pin ORDER differs between boards — check your board's pinout.</text>
+<rect x="250" y="70" width="300" height="440" rx="12" fill="#e8f5e9" stroke="#333" stroke-width="3"/>
+<rect x="300" y="85" width="200" height="130" fill="#333"/><text x="400" y="145" class="b" text-anchor="middle" style="fill:#fff">ESP32-WROOM-32</text><text x="400" y="165" class="s" text-anchor="middle" style="fill:#fff">CPU + RAM + Flash + Wi-Fi/BT</text>
+<text x="400" y="235" class="s" text-anchor="middle">(antenna end at top — keep clear of metal)</text>
+<rect x="260" y="300" width="60" height="30" fill="#ffcc80" stroke="#333"/><text x="290" y="320" class="s" text-anchor="middle">EN</text>
+<rect x="480" y="300" width="60" height="30" fill="#ffcc80" stroke="#333"/><text x="510" y="320" class="s" text-anchor="middle">BOOT</text>
+<rect x="335" y="380" width="130" height="60" fill="#b0bec5" stroke="#333"/><text x="400" y="415" class="b" text-anchor="middle">USB-serial chip</text>
+<rect x="340" y="470" width="120" height="45" fill="#90a4ae" stroke="#333" stroke-width="2"/><text x="400" y="498" class="b" text-anchor="middle">USB PORT</text>
+<rect x="215" y="90" width="35" height="400" fill="#fff59d" stroke="#333"/><rect x="550" y="90" width="35" height="400" fill="#fff59d" stroke="#333"/>
+<text x="120" y="120" class="b" text-anchor="middle">LEFT header</text><text x="120" y="140" class="s" text-anchor="middle">GPIO, ADC pins,</text><text x="120" y="156" class="s" text-anchor="middle">3V3, GND, EN</text>
+<text x="680" y="120" class="b" text-anchor="middle">RIGHT header</text><text x="680" y="140" class="s" text-anchor="middle">GPIO, GND, VIN(5V)</text><text x="680" y="156" class="s" text-anchor="middle">TX0/RX0 (USB serial)</text>
+<line x1="150" y1="300" x2="212" y2="300" class="ln"/><text x="100" y="304" class="s" text-anchor="middle">3V3 = 3.3 V out</text>
+<line x1="150" y1="350" x2="212" y2="350" class="ln"/><text x="100" y="354" class="s" text-anchor="middle">GND = 0 V</text>
+<line x1="150" y1="400" x2="212" y2="400" class="ln"/><text x="100" y="404" class="s" text-anchor="middle">GPIO 34/35/36/39</text><text x="100" y="420" class="s" text-anchor="middle">input-only, ADC1</text>
+<line x1="650" y1="300" x2="588" y2="300" class="ln"/><text x="715" y="304" class="s" text-anchor="middle">VIN / 5V (USB)</text>
+<line x1="650" y1="350" x2="588" y2="350" class="ln"/><text x="715" y="354" class="s" text-anchor="middle">GND (common)</text>
+<line x1="650" y1="400" x2="588" y2="400" class="ln"/><text x="715" y="404" class="s" text-anchor="middle">GPIO 4,18,19,25...</text>
+<text x="400" y="545" class="s" text-anchor="middle">GPIO logic level = 3.3 V. GPIO 6–11 are for Flash: never use.</text>
+</svg>
