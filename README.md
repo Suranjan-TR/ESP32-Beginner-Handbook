@@ -121,13 +121,3 @@ ESP32-Beginner-Handbook/
 | Flame sensor DO / AO | 32 / 33 |
 | TCS3200 S0, S1, S2, S3, OUT | 16, 17, 21, 22, 23 |
 
-## Instructor / workshop details
-
-- **Instructor:** ______________________
-- **Institution:** ______________________
-- **Workshop:** ______________________
-- **Date:** ______________________
-
-## License
-
-MIT – see [LICENSE](LICENSE).
