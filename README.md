@@ -1,6 +1,6 @@
 # ESP32 Beginner Hands-On Handbook
 
-A beginner-friendly, hands-on handbook for diploma students learning **microcontrollers** with a **physical ESP32 board** connected to a laptop over USB. No simulators are needed for the main practical work.
+A beginner-friendly, hands-on handbook for students learning **microcontrollers** with a **physical ESP32 board** connected to a laptop over USB. 
 
 > **Central idea of the whole handbook:** &nbsp; **SENSE → PROCESS → ACT**
 
